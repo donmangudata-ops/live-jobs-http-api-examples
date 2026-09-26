@@ -161,12 +161,12 @@ To use a token instead of OAuth, send the header `Authorization: Bearer <YOUR_AP
 
 ## Pricing
 
-$0.01 per company, including up to 1,000 of its open jobs ($0.0095 on Starter, $0.009 on Scale, $0.008 on Business), plus the Apify platform usage of the request, because the Actor runs as a live server. Each further 1,000 jobs of the same company costs $0.01, a later check with `onlyNewJobs` $0.002 per 1,000 open jobs, and descriptions on Workday, Eightfold and 8 other boards $0.01 per 200 jobs. Invalid, unsupported, duplicate and skipped entries are free. For many companies or daily schedules, [ATS Jobs API](https://apify.com/conserving_celerytop/live-career-page-jobs-api) costs less. These are the prices in September 2026; the [Store page](https://apify.com/conserving_celerytop/live-jobs-http-api) has the current ones.
+$0.01 per company until October 10, 2026, including up to 1,000 of its open jobs ($0.0095 on Starter, $0.009 on Scale, $0.008 on Business); $0.045 from October 11, 2026; planned from November 15, 2026, $0.12 ($0.10 on Scale, $0.09 on Business). Every request also pays its Apify platform usage, because the Actor runs as a live server. Each further 1,000 jobs of the same company costs $0.01, a later check with `onlyNewJobs` $0.002 per 1,000 open jobs, and descriptions on Workday, Eightfold and 8 other boards $0.01 per 200 jobs. Invalid, unsupported, duplicate and skipped entries are free. For many companies or daily schedules, [ATS Jobs API](https://apify.com/conserving_celerytop/live-career-page-jobs-api) costs less. The other prices are those of September 2026; the [Store page](https://apify.com/conserving_celerytop/live-jobs-http-api) has the current ones.
 
 ## Related
 
 - [ATS Jobs API](https://apify.com/conserving_celerytop/live-career-page-jobs-api): the same data as a normal Apify run, with schedules and new-job alerts.
-- [Tech Jobs Search](https://apify.com/conserving_celerytop/tech-jobs-search): search the open jobs of 574 tech, AI and remote-first companies by keyword, $1 per 1,000 matching jobs.
+- [Tech Jobs Search](https://apify.com/conserving_celerytop/tech-jobs-search): search the open jobs of 574 tech, AI and remote-first companies by keyword, $1 per 1,000 matching jobs, $1.15 from October 11, 2026.
 
 Found a problem? Open an issue on the **Issues** tab of the [Actor's page](https://apify.com/conserving_celerytop/live-jobs-http-api).
 
