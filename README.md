@@ -163,6 +163,15 @@ To use a token instead of OAuth, send the header `Authorization: Bearer <YOUR_AP
 
 $0.045 per company, including up to 1,000 of its open jobs ($0.0428 on Starter, $0.0405 on Scale, $0.036 on Business), so 100 companies cost $4.50 before platform usage. Every request also pays its Apify platform usage, because the Actor runs as a live server. Each further 1,000 jobs of the same company costs $0.01, a later check with `onlyNewJobs` $0.002 per 1,000 open jobs, and descriptions on Workday, Eightfold and 8 other boards $0.01 per 200 jobs. Invalid, unsupported, duplicate and skipped entries are free. For many companies or daily schedules, [ATS Jobs API](https://apify.com/conserving_celerytop/live-career-page-jobs-api) costs less. The [Store page](https://apify.com/conserving_celerytop/live-jobs-http-api) has the current price.
 
+## Guides
+
+Step-by-step guides with full Python code, one per job board:
+
+- [Greenhouse jobs API in Python](https://donmangudata-ops.github.io/greenhouse-jobs-api-python/)
+- [Lever postings API in Python](https://donmangudata-ops.github.io/lever-postings-api-python/)
+- [Ashby job board API in Python](https://donmangudata-ops.github.io/ashby-job-board-api-python/)
+- [Workday jobs API in Python](https://donmangudata-ops.github.io/workday-jobs-api-python/)
+
 ## Related
 
 - [ATS Jobs API](https://apify.com/conserving_celerytop/live-career-page-jobs-api): the same data as a normal Apify run, with schedules and new-job alerts.
