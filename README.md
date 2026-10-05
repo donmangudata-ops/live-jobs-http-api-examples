@@ -1,5 +1,7 @@
 # Live Jobs HTTP API examples: company jobs in one GET request
 
+[![M8ven Score](https://m8ven.ai/badge/mcp/donmangudata-ops/live-jobs-http-api-examples)](https://m8ven.ai/mcp/donmangudata-ops/live-jobs-http-api-examples?s=readme)
+
 Get the open jobs of the companies you name in one GET or POST request, from Greenhouse, Lever, Ashby, Workday and 18 more job boards. No run to start, no dataset to fetch: the jobs are in the response.
 
 The API is [Live Jobs HTTP API](https://apify.com/conserving_celerytop/live-jobs-http-api), a hosted Actor on Apify that runs as a live HTTP server. This repo holds curl and Python examples and MCP setup for 5 AI clients. There is no scraper code here. The example code is MIT licensed.
